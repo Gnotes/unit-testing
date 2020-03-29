@@ -59,18 +59,18 @@ describe("#factorial()", function() {
 ③ 判断是否符合预期
 ```
 
-| 名称                               | 是否提供测试框架 | 提供断言 | 展示测试结果 | 快照测试 | 提供仿真 | 覆盖率测试报告 |
-| ---------------------------------- | ---------------- | -------- | ------------ | -------- | -------- | -------------- |
-| [QUnit](./docs/qunit.md)           | √                | √        | √            | X        | X        | X              |
-| [Jasmine](./docs/jasmine.md)       | √                | √        | √            | X        | X        | √              |
-| [Mocha](./docs/mocha.md)           | √                | X        | √            | X        | X        | X              |
-| [Jest](./docs/jest.md)             | √                | √        | √            | √        | X        | √              |
-| [Chai](./docs/chai.md)             | X                | √        | X            | X        | X        | X              |
-| [Unexpected](./docs/unexpected.md) | X                | √        | X            | X        | X        | X              |
-| [Should](./docs/should.md)         | X                | √        | X            | X        | X        | X              |
-| [Assert](./docs/assert.md)         | X                | √        | X            | X        | X        | X              |
-| [Enzyme](./docs/enzyme.md)         | X                | X        | X            | X        | √        | X              |
-| [Istanbul](./docs/istanbul.md)     | X                | X        | X            | X        | X        | √              |
+| 名称                           | 是否提供测试框架 | 提供断言 | 展示测试结果 | 快照测试 | 提供仿真 | 覆盖率测试报告 |
+| ------------------------------ | ---------------- | -------- | ------------ | -------- | -------- | -------------- |
+| [QUnit](./docs/qunit.md)       | √                | √        | √            | X        | X        | X              |
+| [Jasmine](./docs/jasmine.md)   | √                | √        | √            | X        | X        | √              |
+| [Mocha](./docs/mocha.md)       | √                | X        | √            | X        | X        | X              |
+| [Jest](./docs/jest.md)         | √                | √        | √            | √        | X        | √              |
+| [Chai](./docs/chai.md)         | X                | √        | X            | X        | X        | X              |
+| [Expect](./docs/expect.md)     | X                | √        | X            | X        | X        | X              |
+| [Should](./docs/should.md)     | X                | √        | X            | X        | X        | X              |
+| [Assert](./docs/assert.md)     | X                | √        | X            | X        | X        | X              |
+| [Enzyme](./docs/enzyme.md)     | X                | X        | X            | X        | √        | X              |
+| [Istanbul](./docs/istanbul.md) | X                | X        | X            | X        | X        | √              |
 
 ## 参考
 
