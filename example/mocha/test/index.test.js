@@ -14,3 +14,40 @@ describe("Throw errors", function() {
     setImmediate(done);
   });
 });
+
+describe("Hooks", function() {
+  var count = 0;
+
+  beforeEach(function(done) {
+    count = 2;
+    done();
+  });
+
+  describe("counts", function() {
+    function setCount(num) {
+      count = num;
+    }
+    it("count should be 2", function() {
+      // setCount(3);
+      assert.equal(count, 2);
+    });
+  });
+});
+
+describe("Promises", function() {
+  var count = 0;
+
+  beforeEach(function(done) {
+    count = 2;
+    done();
+  });
+
+  describe("counts", function() {
+    it("should complete this test", function() {
+      return new Promise(function(resolve) {
+        assert.equal(count, 2);
+        resolve();
+      });
+    });
+  });
+});
