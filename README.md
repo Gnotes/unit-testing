@@ -1,6 +1,4 @@
-![GitHub forks](https://img.shields.io/github/forks/Gnotes/unit-testing?style=social)
-![GitHub stars](https://img.shields.io/github/stars/Gnotes/unit-testing?style=social)
-![GitHub](https://img.shields.io/github/license/Gnotes/unit-testing)
+![GitHub forks](https://img.shields.io/github/forks/Gnotes/unit-testing?style=social) ![GitHub stars](https://img.shields.io/github/stars/Gnotes/unit-testing?style=social) ![GitHub](https://img.shields.io/github/license/Gnotes/unit-testing)
 
 # Unit Testing 单元测试
 
