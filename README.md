@@ -59,20 +59,20 @@ describe("#factorial()", function() {
 ③ 判断是否符合预期
 ```
 
-| 名称                                        | 是否提供测试框架 | 提供断言 | 断言风格   | 展示测试结果 | 快照测试 | 提供仿真 | 覆盖率测试报告 |
-| ------------------------------------------- | ---------------- | -------- | ---------- | ------------ | -------- | -------- | -------------- |
-| [QUnit](./docs/qunit.md)                    | √                | √        | C          | √            | X        | X        | X              |
-| [Jasmine](./docs/jasmine.md)                | √                | √        | Expect     | √            | X        | X        | √              |
-| [Mocha](./docs/mocha.md)                    | √                | X        | -          | √            | X        | X        | X              |
-| [Jest](./docs/jest.md)                      | √                | √        | Expect     | √            | √        | X        | √              |
-| [Chai](./docs/chai.md)                      | X                | √        | BDD / TDD  | X            | X        | X        | X              |
-| [Expect](./docs/expect.md)                  | X                | √        | Expect     | X            | X        | X        | X              |
-| [Unexpected](./docs/unexpected.md)          | X                | √        | BDD+Expect | X            | X        | X        | X              |
-| [Should](./docs/should.md)                  | X                | √        | BDD        | X            | X        | X        | X              |
-| [Assert](./docs/assert.md)                  | X                | √        | C          | X            | X        | X        | X              |
-| [Enzyme](./docs/enzyme.md)                  | X                | X        | -          | X            | X        | √        | X              |
-| [@vue/test-utils](./docs/vue-test-utils.md) | X                | X        | -          | X            | X        | √        | X              |
-| [Istanbul](./docs/istanbul.md)              | X                | X        | -          | X            | X        | X        | √              |
+| 名称                                        | 是否提供测试框架 | 提供断言 | 断言风格   | 展示测试结果 | 快照测试 | 提供仿真 | 覆盖率测试报告 | 推荐 |
+| ------------------------------------------- | ---------------- | -------- | ---------- | ------------ | -------- | -------- | -------------- | ---- |
+| [QUnit](./docs/qunit.md)                    | √                | √        | C          | √            | X        | X        | X              | ☆    |
+| [Jasmine](./docs/jasmine.md)                | √                | √        | Expect     | √            | X        | X        | √              | ☆☆   |
+| [Mocha](./docs/mocha.md)                    | √                | X        | -          | √            | X        | X        | X              | ☆☆   |
+| [Jest](./docs/jest.md)                      | √                | √        | Expect     | √            | √        | X        | √              | ☆☆☆☆ |
+| [Chai](./docs/chai.md)                      | X                | √        | BDD / TDD  | X            | X        | X        | X              | ☆☆   |
+| [Expect](./docs/expect.md)                  | X                | √        | Expect     | X            | X        | X        | X              | ☆    |
+| [Unexpected](./docs/unexpected.md)          | X                | √        | BDD+Expect | X            | X        | X        | X              | ☆    |
+| [Should](./docs/should.md)                  | X                | √        | BDD        | X            | X        | X        | X              | ☆    |
+| [Assert](./docs/assert.md)                  | X                | √        | C          | X            | X        | X        | X              | ☆    |
+| [Enzyme](./docs/enzyme.md)                  | -                | -        | -          | -            | -        | √        | -              | ☆☆☆☆ |
+| [@vue/test-utils](./docs/vue-test-utils.md) | -                | -        | -          | -            | -        | √        | -              | ☆☆☆☆ |
+| [Istanbul](./docs/istanbul.md)              | -                | -        | -          | -            | -        | -        | √              | ☆☆☆☆ |
 
 ## 参考
 
